@@ -1,0 +1,56 @@
+
+###
+POST http://127.0.0.1:3000/api/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Njc0NjcyMDAsImV4cCI6MTc5OTAwMzIwMH0.cKghZhDwqVlpMLrC9os8xnZ11-Hkr64njZZM6B2av2I
+
+
+
+  {
+    "id": 1,
+    "name": "Crème Hydratante Ultra Black",
+    "description": "Crème hydratante pour un teint lumineux et une peau lisse.",
+    "price": 29.99,
+    "stock": 100,
+    "category": "Soins du visage",
+    "imageUrl": "https://example.com/images/creme-ultraglow.jpg",
+    "createdAt": "2025-11-24T10:00:00.000Z",
+    "updatedAt": "2025-11-24T10:00:00.000Z"
+  }
+
+
+###
+
+GET http://127.0.0.1:3000/api/products
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Njc1NzE3MjgsImV4cCI6MTc5OTEwNzcyOH0.jZnPicQfEzU2JuoYvALe_jyJ86s3JhHngqtuA1zJK-s
+Content-Type: application/json
+
+
+###
+GET http://127.0.0.1:3000/api/products?category=Soins du visage
+
+###
+GET http://127.0.0.1:3000/api/products?minPrice=20&maxPrice=50
+
+###
+DELETE http://127.0.0.1:3000/api/products/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjM5ODQ0NDQsImV4cCI6MTc2Mzk4ODA0NH0.JUoam8DQ9H6fHjC103TL9o4HTQtFU4GDK9oaTPeSP7g
+
+###
+GET  http://127.0.0.1:3000/api/products/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Njc1NzE3MjgsImV4cCI6MTc5OTEwNzcyOH0.jZnPicQfEzU2JuoYvALe_jyJ86s3JhHngqtuA1zJK-s
+
+###
+PUT http://127.0.0.1:3000/api/products/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjM5ODQ0NDQsImV4cCI6MTc2Mzk4ODA0NH0.JUoam8DQ9H6fHjC103TL9o4HTQtFU4GDK9oaTPeSP7g
+
+{
+  "name": "Crème Ultra Glow – Version 2",
+  "description": "Nouvelle formule hydratante encore plus puissante.",
+  "price": 34.99,
+  "stock": 80,
+  "category": "Soins du visage",
+  "imageUrl": "https://example.com/images/creme-ultraglow-v2.jpg"
+}

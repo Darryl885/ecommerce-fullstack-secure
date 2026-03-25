@@ -1,0 +1,5 @@
+
+###
+GET http://localhost:3000/api/orderitems/order/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ1MTIyNzksImV4cCI6MTc2NDUxNTg3OX0.aZIS7g-F4obFk31vgfGuQIA3JXBkDiwq1osPWaP1hM0
+Content-Type: application/json

@@ -1,0 +1,15 @@
+###
+POST http://localhost:3000/api/reviews
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Njc1NzE3MjgsImV4cCI6MTc5OTEwNzcyOH0.jZnPicQfEzU2JuoYvALe_jyJ86s3JhHngqtuA1zJK-s
+Content-Type: application/json
+
+{
+  "productId": 2,
+  "rating": 5,
+  "comment": "Excellent produit, livraison rapide ! Je recommande."
+}
+
+
+####
+GET http://localhost:3000/api/reviews/product/2
+Content-Type: application/json

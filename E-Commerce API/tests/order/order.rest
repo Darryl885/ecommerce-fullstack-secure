@@ -1,0 +1,31 @@
+
+###
+# POST http://127.0.0.1:3000/api/orders/1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc2Mjg2MzE2MiwiZXhwIjoxNzYyODY2NzYyfQ.bwHV_o37ieGD1l9edZQ7kfRJELVvHF_ehX6izlyzBYc
+
+# {
+#   "totalAmount": 120.50,
+#   "status": "pending"
+# }
+
+POST http://localhost:3000/api/orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJUY2hhcGlAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjU3NTM3NjIsImV4cCI6MTc2NTc2MDk2Mn0.uSHUB4ZK-WW-cb3s52B2YrIaa-L5u0tL3MRgjRP3mhw
+Content-Type: application/json
+
+{
+"addressId": 2
+}
+ 
+  
+
+
+
+###
+PUT http://127.0.0.1:3000/api/orders/5/status
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc2MzkzNjA1NiwiZXhwIjoxNzYzOTM5NjU2fQ.lQWTZMljcaVietfJV2dvktr8pGyh6VDUlJGun0P88F8
+Content-Type: application/json
+
+{
+  "status": "shipped"
+}

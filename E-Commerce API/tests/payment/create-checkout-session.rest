@@ -1,0 +1,19 @@
+POST http://localhost:3001/api/payments/createCheckoutSession
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJUY2hhcGlAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NzMxOTQ0MjEsImV4cCI6MTgwNDczMDQyMX0.ykLpSwYEYiWvzF3OBSjji8Q9s7aXOIBlmmxNSs4SKks
+Content-Type: application/json
+
+
+{
+  "amount": 100,
+  "currency": "usd",
+  "productName": "Commande e-commerce",
+  "orderId": 1
+}
+
+
+
+
+#4242 4242 4242 4242
+#Exp: n’importe quelle date future
+#CVC: 123
+

@@ -1,0 +1,15 @@
+
+###
+GET http://localhost:3000/api/admin/total-users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ2MDQ1MTMsImV4cCI6MTc2NDYwODExM30.bUgRUnwK4be_4Z9uZORfrE3fRvwDx7WGSo5XNaF6Fpg
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/admin/total-sales
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ2MjYyNTksImV4cCI6MTc2NDYyOTg1OX0.OptdfbcI5hvCk0F-BWic1SroS-Ka-JEagvCKRtxlm94
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api/admin/sales-by-day
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ2MjYyNTksImV4cCI6MTc2NDYyOTg1OX0.OptdfbcI5hvCk0F-BWic1SroS-Ka-JEagvCKRtxlm94
+Content-Type: application/json

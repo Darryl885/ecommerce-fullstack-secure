@@ -1,0 +1,27 @@
+
+###
+POST http://localhost:3000/api/cartItem
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Njc2MjI0NzcsImV4cCI6MTc5OTE1ODQ3N30.9NPlJqL6BH-CsvuxJfKRCq9oF1KGKFgOyj35QJXqodY
+{
+  "productId": 2,
+  "quantity": 2
+}
+
+###
+GET  http://localhost:3000/api/cartItem
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjU3NTA5ODUsImV4cCI6MTc2NTc1ODE4NX0.CVjmNWlRqJuKgpvNwisUpaZSbj1-eoQChoI521UR7kw
+
+###
+DELETE http://localhost:3000/api/cartItem/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ0MzEwODYsImV4cCI6MTc2NDQzNDY4Nn0.g-G6bvAVBk8FyIrvymLaCI--3f9T2HiGLM0GS62RBts
+
+
+###
+PUT http://localhost:3000/api/cartItem/5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJUY2hhcGlAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NjQ5ODQyMTMsImV4cCI6MTc2NDk5MTQxM30.hJJDb9fMtQT5MUlu7i3NMteuEA5iAKayL0QXhWLd7vo
+
+{
+  "quantity": 2
+}

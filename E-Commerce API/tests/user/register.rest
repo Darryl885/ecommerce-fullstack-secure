@@ -1,0 +1,33 @@
+###
+
+POST http://127.0.0.1:3001/api/users/register
+Content-Type: application/json
+
+{
+
+  "email": "darryl@gmail.com",
+  "password": "motdepasse123"
+}
+
+
+
+
+
+###
+
+POST http://127.0.0.1:3001/api/users/login
+Content-Type: application/json
+
+{
+  "email": "tchapi@gmail.com", // user tchapi@gmail.com , motdepasse1234
+  "password": "motdepasse1234" 
+}
+
+###
+GET http://127.0.0.1:3000/api/users/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJUY2hhcGlAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3Njc0NTc2MzcsImV4cCI6MTc5ODk5MzYzN30.T85uy4zrVDPvMUFejXIaqRiiHKke57plrAptV_mUvCM
+
+
+###
+GET http://127.0.0.1:3000/api/users/1/orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTc2Mjg1OTQxNiwiZXhwIjoxNzYyODYzMDE2fQ.ZKfamuasIfR1LgD87nZD16LEIcQxiS-DnElviGd_v_Y

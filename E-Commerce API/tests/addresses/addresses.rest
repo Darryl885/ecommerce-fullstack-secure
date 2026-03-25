@@ -1,0 +1,36 @@
+
+###
+POST http://localhost:3000/api/addresses
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ2MzAyMDgsImV4cCI6MTc2NDYzMzgwOH0.-43715Fvo9Zk77S2FhEZDTtkJXodd_lEREjcHi8fHfI
+Content-Type: application/json
+
+
+{
+  "fullName": "Jean Dupont",
+  "phone": "+22507070707",
+  "country": "Côte d'Ivoire",
+  "city": "Abidjan",
+  "postalCode": "00225",
+  "street": "Marcory Résidentiel",
+  "type": "shipping",
+  "isDefault": true
+}
+
+###
+GET http://localhost:3000/api/addresses
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ2MzAyMDgsImV4cCI6MTc2NDYzMzgwOH0.-43715Fvo9Zk77S2FhEZDTtkJXodd_lEREjcHi8fHfI
+
+
+###
+PUT http://localhost:3000/api/addresses/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ2MzQ4MzYsImV4cCI6MTc2NDYzODQzNn0.OEhwpdKJZLHnp2OG1_sD-_FY71OMpxyHuJWflKEQJBk
+Content-Type: application/json
+
+{
+  "city": "Cocody",
+  "isDefault": true
+}
+
+###
+DELETE http://localhost:3000/api/addresses/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkYXJyeWxAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3NjQ2MzQ4MzYsImV4cCI6MTc2NDYzODQzNn0.OEhwpdKJZLHnp2OG1_sD-_FY71OMpxyHuJWflKEQJBk
